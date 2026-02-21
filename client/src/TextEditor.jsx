@@ -16,7 +16,7 @@ function TextEditor() {
   console.log(docId)
 
   useEffect(() => {
-    const s = io("https://google-docs-clone-production-2707.up.railway.app/");
+    const s = io("INSERTYOURURL");
     setSocket(s);
     
 
